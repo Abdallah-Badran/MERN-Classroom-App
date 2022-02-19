@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none
+}
+
+button{
+	border: none ;
+	cursor: pointer;
+	padding: 10px ;
+	border-radius: 7px ;
+	font-size: 15px;
+    font-weight: 600;
+    background-color: transparent
+}
+
+@import url('./components/signupDialog/signupDialog.css');
+@import url('./pages/signUp/signUp.css');
+@import url('./pages/users/users.css');
+@import url('./components/usersListItem/usersListItem.css');
+@import url('./pages/profile/profile.css');
+@import url('./components/deleteUser/deleteUser.css');
+@import url('./pages/editUser/editUser.css');
+@import url('./components/navbar/navbar.css');
+@import url('./pages/myCourses/myCourses.css');
+@import url('./pages/course/course.css');
+@import url('./components/newLesson/newLesson.css');
+@import url('./components/deleteCourse/deleteCourse.css');
+@import url('./pages/enrollment/enrollment.css');
+@import url('./pages/enrollments/enrollments.css');
+@import url('./components/courses/courses.css');
+@import url('./pages/home/home.css');
+@import url('./pages/editCourse/editCourse.css');
+@import url('./pages/newCourse/newCourse.css');
